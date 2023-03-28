@@ -1,0 +1,16 @@
+https://www.c-sharpcorner.com/article/simple-xml-parser-in-C-Sharp/
+Parse MAMExml for
+{
+	machine.attr('name'): {
+		"storedin": machine.attr('cloneof')? || machine.attr('name'),
+		"requires": machine.attr('romof')?,
+		"displayname": machine.childNode('description'),
+		"year": machine.childNode('year')?,
+		"manufacturer": machine.childNode('manufacturer')?
+	}
+}
+
+make GUI and browser userscript that hooks into arcadeitalia http://adb.arcadeitalia.net/
+and puts install buttons next to games, opens a URI handler on machine that downloads and plays the rom with mame-dl
+
+stretch -- go further and use a background UI process to interact with MAME, for requests that show which games are installed?
