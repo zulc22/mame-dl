@@ -4,6 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mame_dl"
-version = "0.0.1"
+version = "0.1.0"
 description = "MAME Download"
 dynamic = ["entry-points"]
