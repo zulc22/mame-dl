@@ -196,6 +196,7 @@ def cli():
     LASTDIR = os.getcwd()
 
     # Configuration files are kept in ~/.mame-dl
+    
     MDL_PATH = os.path.expanduser("~/.mame-dl")
 
     # Make the folder if it doesn't exist
